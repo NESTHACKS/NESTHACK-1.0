@@ -1,0 +1,35 @@
+{
+  "name": "coveragesmartcontract",
+  "version": "1.0.0",
+  "description": "pension management protocol/service on the blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KodeSage/Coverage.git"
+  },
+  "keywords": [
+    "coverage",
+    "smartcontract",
+    "protocol",
+    "Difi",
+    "pension"
+  ],
+  "author": "James Harrison (@KodeSage)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KodeSage/Coverage/issues"
+  },
+  "homepage": "https://github.com/KodeSage/Coverage#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.1",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0",
+    "dotenv": "^16.0.1"
+  }
+}
